@@ -12,7 +12,7 @@ const httpOptions = {
 export class UserService {
 
   constructor(private http: HttpClient) { }
-  private userUrl = 'https://reqres.in/api/users';
+  private userUrl = 'http://jsonplaceholder.typicode.com/todos';
   public getUsers() {
     return this.http.get<User[]>(this.userUrl);
   }

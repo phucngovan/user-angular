@@ -1,7 +1,6 @@
 export class User {
+  userId: string
   id: string;
-  first_Name: string;
-  last_Name: string;
-  avatar: string;
-
+ title: string;
+ completed: boolean;
 }
